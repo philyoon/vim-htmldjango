@@ -1,0 +1,9 @@
+extends html
+snippet static
+	{% static '${1}' %}
+snippet imgst
+	<img src="{% static '${1}' %}" alt="${2}" />
+snippet cssst
+	<link rel="stylesheet" href="{% static '${1}' %}" />
+snippet scriptst
+	<script src="{% static '${1}' %}"></script>
